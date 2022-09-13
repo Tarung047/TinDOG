@@ -1,0 +1,159 @@
+h1{
+    color:blueviolet;
+    font-size: 60px;
+}
+
+h1:hover{
+    color:rgb(128, 175, 81);
+}
+
+h3{
+    font-family: "Montserrat-Bold";
+}
+
+p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    color: gray;
+}
+
+h2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+
+em{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    color: gray;
+}
+
+#title{
+    background-color: rgba(255, 182, 193, 0.685);
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+
+
+.container-fluid{
+    padding: 2% 15% 10%;      
+}
+
+.navbar{
+    padding-bottom: 5rem;
+}
+
+.navbar-brand{
+    font-size: 50px;
+}
+
+.nav-item{
+    font-family: "Montserrat-Bold";
+    color: white;
+    font-size: 25px;
+    padding: 0 10px;
+}
+
+.title-img{
+    position: absolute;
+    transform: rotate(25deg);
+    right: 20%;
+}
+
+#features{
+    background-color: #fff;
+    padding: 7% 15%;
+    position: relative;
+    text-align: center;
+
+}
+
+
+.icon{
+    color: rebeccapurple;
+    margin-bottom: 20px;
+}
+
+.icon:hover{
+    color: black;
+}
+
+#testimonials{
+    background-color: rgba(255, 182, 193, 0.685);
+    text-align: center;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+.iconic{
+    background-color: black;
+}
+
+.testimonial-img{
+    width: 15%;
+    border: 3px solid coral;
+    border-radius: 100% ;
+    margin: 20px;
+}
+
+.logo{
+    width: 15%;
+    margin: 5px 60px ;
+}
+
+#press{
+    background-color: rgba(255, 182, 193, 0.685);
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#pricing{
+    text-align: center;
+    padding: 5%;
+}
+
+.colm{
+    padding: 3% 2%;
+}
+
+.card{
+    background-color: rgba(127, 255, 212, 0.409);
+}
+
+#cta{
+    background-color: lightpink;
+    padding: 5%;
+    text-align: center;
+}
+
+.btn{
+    margin: 30px 10px;
+}
+
+.cta-heading{
+    font-family: "Montserrat-Bold";
+    font-size: 50px;
+}
+
+#footer{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.social-icon{
+    padding: 0px 15px;
+}
+
+@media (max-width: 1030px) {
+
+    #title {
+      text-align: center;
+    }
+  
+    .title-img {
+      position: static;
+      transform: rotate(0);
+    }
+}
+  
